@@ -1863,10 +1863,13 @@
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-btn {\
                   color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\
-                  text-shadow: 0 0 1px rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
+                  //text-shadow: 0 0 1px rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-btn.active {\
-                  color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\
+                  color: rgb(127, 231, 107);\
+                }\
+                .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-btn.active:hover {\
+                  text-shadow: none;\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-btn:hover {\
                   text-shadow: none;\
@@ -1879,7 +1882,7 @@
                   background: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item {\
-                  border-color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
+                  //border-color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                   color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\
                   background: rgb(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ');\
                 }\
@@ -1887,9 +1890,17 @@
                   border-color: rgb(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ');\
                   background: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
-                .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active,\
+                .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active{\
+                  background: rgb(127, 231, 107);\
+                  color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
+                }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item:hover {\
-                  background: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\
+                  background: rgb(102, 102, 102);\
+                  color: rgb(255, 255, 255);\
+                }\
+                .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active,\
+                .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active:hover {\
+                  background: rgb(127, 231, 107);\
                   color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container:not([data-size="fill"]) .jgallery-container {\
@@ -1899,7 +1910,8 @@
                   color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container .nav-bottom {\
-                  background: rgb(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ');\
+                  //background: rgb(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ');\
+                   background: rgb(102,102, 102);\
                   -webkit-box-shadow: 0 -3px rgba(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', .5);\
                   box-shadow: 0 -3px rgba(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', .5);\
                 }\
@@ -1918,10 +1930,10 @@
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-thumbnails .ico {\
                   color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\
                 }\
-                .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-thumbnails .jgallery-container {\
-                  -webkit-box-shadow: 0 0 0 3px rgba(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', .5);\
-                  box-shadow: 0 0 0 3px rgba(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', .5);\
-                }\
+                //.jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-thumbnails .jgallery-container {\
+                //  -webkit-box-shadow: 0 0 0 3px rgba(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', .5);\
+                //  box-shadow: 0 0 0 3px rgba(' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', .5);\
+                //}\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-thumbnails.full-screen .prev:before {\
                   background-image: -webkit-gradient(linear,left 0%,left 100%,from(rgba( ' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', 1 )),to(rgba( ' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', 0)));\
                   background-image: -webkit-linear-gradient(top,rgba( ' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', 1 ),0%,rgba( ' + arrBgAlt.r + ',' + arrBgAlt.g + ', ' + arrBgAlt.b + ', 0),100%);\
