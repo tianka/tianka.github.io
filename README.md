@@ -1,1 +1,1 @@
-Demo, usage example and configuration http://jgallery.jakubkowalczyk.pl.
+http://tianka.github.io/

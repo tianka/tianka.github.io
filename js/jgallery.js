@@ -557,7 +557,7 @@
             $album.addClass( 'active' );
             this.jGallery.iconChangeAlbum.getListOfAlbums().find( '.item' ).removeClass( 'active' ).filter( '[data-jgallery-album-title="' + $album.attr( 'data-jgallery-album-title' ) + '"]' ).addClass( 'active' );
             //this.jGallery.iconChangeAlbum.setTitle( $album.attr( 'data-jgallery-album-title' ) );
-            this.jGallery.iconChangeAlbum.setTitle( 'My Projects' );
+            this.jGallery.iconChangeAlbum.setTitle( 'tianka`s Portfolio' );
             this.refreshNavigation();
             if ( ! this.getElement().is( '.full-screen' ) && this.jGallery.$element.is( ':visible' ) ) {
                 this.zoom.showPhoto( $album.find( 'a' ).eq( 0 ) );
@@ -1180,7 +1180,7 @@
                 if ( this.jGallery.iconChangeAlbum.getTitle() === '' ) {
                     albumTitle = $a.parents( '.album' ).eq( 0 ).attr( 'data-jgallery-album-title' );
                     //this.jGallery.iconChangeAlbum.setTitle( albumTitle );
-                    this.jGallery.iconChangeAlbum.setTitle( 'My Projects' );
+                    this.jGallery.iconChangeAlbum.setTitle( 'tianka`s Portfolio' );
                     this.jGallery.iconChangeAlbum.$element.find( '[data-jgallery-album-title="' + albumTitle + '"]' ).addClass( 'active' );
                     $a.parents( '.album' ).addClass( 'active' ).siblings( '.album' ).removeClass( 'active' );
                 }
@@ -1904,7 +1904,7 @@
                   color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container:not([data-size="fill"]) .jgallery-container {\
-                  background: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
+                  background: rgb(207, 207, 207);\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container .title {\
                   color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\

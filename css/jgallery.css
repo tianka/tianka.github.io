@@ -4016,7 +4016,7 @@ body.overlayContainer > .overlay .imageLoaderPositionAbsolute {
 }
 
 .jgallery .zoom-container .drag-nav {
-    top: 16px;
+    bottom: 16px;
     left: 16px;
     -webkit-transition: all .3s;
     transition: all .3s;
