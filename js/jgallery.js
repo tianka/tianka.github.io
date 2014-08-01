@@ -27,8 +27,8 @@
         thumbType: 'image', // [ image | square | number ]
         thumbnailsPosition: 'bottom', // [ top | bottom | left | right ]
         reloadThumbnails: true, //Reload thumbnails when function jGallery() is called again for the same item
-        thumbWidth: 75, //px
-        thumbHeight: 75, //px
+        thumbWidth: 50, //px
+        thumbHeight: 50, //px
         thumbWidthOnFullScreen: 100, //px
         thumbHeightOnFullScreen: 100, //px
         canMinimalizeThumbnails: true,
