@@ -983,7 +983,6 @@
                 'max-width': 'none',
                 'max-height': 'none'
             } );
-            console.log('c')
             $img.css( {
                 'margin-top': - $('.zoom-container').height() / 2,//$img.height() / 2,
                 'margin-left': - $img.width() / 2
@@ -1014,7 +1013,6 @@
                     'height': 'auto'
                 } );
             }
-            console.log('a')
             $img.css( {
                 'margin-top': - $img.height() / 2,
                 'margin-left': - $img.width() / 2
@@ -1049,7 +1047,6 @@
                 'min-width': isThumbnailsVisible && this.thumbnails.isVertical() ? this.$jGallery.width() - this.thumbnails.getElement().outerWidth( true ) : this.$jGallery.width(),
                 'min-height': isThumbnailsVisible && this.thumbnails.isHorizontal() ? this.$jGallery.height() - this.thumbnails.getElement().outerHeight( true ) - intNavBottomHeight : this.$jGallery.height() - intNavBottomHeight
             } );
-            console.log('b')
             $img.css( {
                 'margin-top': - $('.zoom-container').height() / 2,//$img.height() / 2,
                 'margin-left': - $img.width() / 2
@@ -2463,7 +2460,6 @@
             title: $title.html(),
             path: ''
         }, options );
-        console.log( document.location.href.split('#')[0] + '#' + options.path );
         window.history.pushState( options.stateObj, options.title, document.location.href.split('#')[0] + '#' + options.path );
     }
     
