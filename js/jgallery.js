@@ -222,7 +222,7 @@
     IconChangeAlbum.prototype = {
         bindEvents: function( jGallery ) {
             var self = this;
-          
+
             this.getElement().on( {
                 click: function( event ) {
                     self.menuToggle();
@@ -237,9 +237,10 @@
                         return;
                     }
                     jGallery.thumbnails.setActiveAlbum( jGallery.thumbnails.$albums.filter( '[data-jgallery-album-title="' + $this.attr( 'data-jgallery-album-title' ) + '"]' ) );
+                    self.menuToggle();
                 }
             } );
-            $( 'html' ).on( 'click', function(){ self.menuHide(); } );  
+            //$( 'html' ).on( 'click', function(){ self.menuHide(); } );
         },
         
         setTitle: function( strTitle ) {
@@ -1627,6 +1628,7 @@
             this.thumbnails.getElement().append( this.iconChangeAlbum.getElement().outerHtml() );
             this.iconChangeAlbum = new IconChangeAlbum( this.iconChangeAlbum.getElement().add( this.thumbnails.getElement().children( ':last-child' ) ), this );
             this.iconChangeAlbum.bindEvents( this );
+            this.iconChangeAlbum.menuToggle();
         },
         
         init: function() {
