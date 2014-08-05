@@ -1904,7 +1904,10 @@
                   color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container:not([data-size="fill"]) .jgallery-container {\
-                  background: rgb(207, 207, 207);\
+                  background: rgb(230, 230, 230);\
+                  background-image: url("images/bg.jpg");\
+                  background-repeat: repeat-y;\
+                  background-position: center;\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container .title {\
                   color: rgb(' + arrText.r + ',' + arrText.g + ', ' + arrText.b + ');\

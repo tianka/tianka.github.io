@@ -22,17 +22,17 @@
 }
 
 .jgallery .jgallery-btn-large {
-    width: 60px;
-    height: 60px;
-    line-height: 64px;
-    font-size: 30px;
+    width: 43px;
+    height: 80px;
+    line-height: 83px;
+    font-size: 25px;
     text-align: center;
     color: #fff
 }
 
 .jgallery .jgallery-btn-small {
-    width: 40px;
-    height: 40px;
+    width: 43px;
+    height: 43px;
     margin: 0;
     line-height: 43px;
     font-size: 18px;

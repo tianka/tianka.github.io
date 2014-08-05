@@ -1,1 +1,1 @@
-http://tianka.github.io/
+http://tianka.tk
