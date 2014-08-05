@@ -1612,7 +1612,7 @@
                 return;
             }
             this.zoom.$container.find( '.nav-bottom' ).append( '\
-                <span class="icon-list change-album jgallery-btn jgallery-btn-small">\
+                <span class="icon-list change-album jgallery-btn jgallery-btn-small active">\
                     <span class="menu jgallery-btn"></span>\
                     <span class="title"></span>\
                 </span>\
