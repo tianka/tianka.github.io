@@ -1865,7 +1865,7 @@
                   //text-shadow: 0 0 1px rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-btn.active {\
-                  color: rgb(127, 231, 107);\
+                  color: rgb(153, 211, 224);\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .jgallery-btn.active:hover {\
                   text-shadow: none;\
@@ -1890,7 +1890,7 @@
                   background: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active{\
-                  background: rgb(127, 231, 107);\
+                  background: rgb(153, 211, 224);\
                   color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item:hover {\
@@ -1899,7 +1899,7 @@
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active,\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .change-album .menu .item.active:hover {\
-                  background: rgb(127, 231, 107);\
+                  background: rgb(153, 211, 224);\
                   color: rgb(' + arrBg.r + ',' + arrBg.g + ', ' + arrBg.b + ');\
                 }\
                 .jgallery[data-jgallery-id="' + this.intId + '"] .zoom-container:not([data-size="fill"]) .jgallery-container {\
