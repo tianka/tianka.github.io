@@ -2462,6 +2462,12 @@
             title: $title.html(),
             path: ''
         }, options );
+
+        ga('send', 'pageview', {
+            'page': '/#'+options.path,
+            'title': $('a[href="'+options.path+'"]').find('img').attr('alt')
+        });
+
         window.history.pushState( options.stateObj, options.title, document.location.href.split('#')[0] + '#' + options.path );
     }
     
