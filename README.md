@@ -1,1 +1,1 @@
-https://tianka.github.io
+https://tianka.github.io/gallery.html
